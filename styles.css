@@ -1,0 +1,313 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: rgb(18, 18, 18);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  line-height: 1.5;
+  word-spacing: 0.16em;
+}
+
+.skiptocontent {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  color: white;
+  background-color: rgb(0, 51, 102);
+  padding: 6px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  transition-property: top;
+}
+
+.skiptocontent:focus {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+  transition-property: top;
+  outline-color: rgb(233,179,37);
+}
+
+header {
+  text-align: left;
+  padding: 6px 25px;
+  font-weight: 600;
+  font-size: 1.5em /*24px/16=1.5em*/;
+  color: rgb(0, 51, 102);
+}
+
+.navigation {
+  overflow: hidden;
+  background-color: rgb(0,125,130);
+}
+
+.navigation a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 25px;
+}
+
+.navigation a:hover {
+  background-color: white;
+  color: rgb(0,125,130);
+  font-weight: 500;
+}
+
+.navigation a:focus {
+  background-color: white;
+  color: rgb(0,125,130);
+  font-weight: 500;
+}
+
+footer {
+  background-color: rgb(0,125,130);
+  color: white;
+  text-align: center;
+  padding: 6px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 2.5em; /*40px/16=2.5em*/
+  color: rgb(0, 51, 102);
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(0, 51, 102);
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: rgb(0, 51, 102);
+}
+
+.maincontent h1, h2, h3, p, table {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+/*Home*/
+.image-container {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-picture {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-text h1 {
+  position: absolute;
+  top:10%;
+  left:8%;
+  color: white;
+  font-size: 5.5vw; /*Scale the font size according to the width of the viewport*/
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgb(10,10,10);
+  margin: 0;
+  padding: 0;
+}
+
+.main-article-home p {
+  padding: 20px 40px;
+}
+
+.divider {
+  width: calc(100% - 80px);
+  margin: 20px auto;
+  border: none;
+  border-top: 2px solid rgb(0,125,130);
+}
+
+section {
+  margin-top: 40px;
+  padding: 0 40px;
+}
+
+.sections-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.column {
+  flex: 1 1 calc(25% - 15px);
+  display: flex;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .colum {
+    flex: 1 1 calc(50% - 15px);
+  }
+}
+
+@media (max-width: 480px) {
+  .column {
+    flex: 1 1 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(215,235,255)
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.text {
+  text-align: center;
+  background-color: rgb(215,235,255);
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+.text h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text a {
+  color: rgb(18, 18, 18);
+  text-underline-offset: 3px;
+  text-decoration-color: rgb(0, 51, 102);
+}
+
+.text a:focus {
+  outline-offset: 5px;
+  outline-color: rgb(0, 51, 102);
+}
+
+.text a:visited {
+  color: rgb(83, 0, 79);
+}
+
+/*History*/
+#development-table {
+ width: calc(100% - 80px);
+ border-collapse: collapse;
+ margin: 40px auto;
+}
+
+#development-table th, #development-table td {
+  border: 1px solid grey;
+  padding: 8px;
+}
+
+#development-table th {
+  padding: 8px 12px;
+  background-color: rgb(0,51,102);
+  color: white;
+}
+
+#development-table tr:nth-child(even) {
+  background-color: rgb(215,235,255);
+}
+
+#history-timeline {
+  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  background-color: rgb(215,235,255);
+  width: calc(100% - 80px);
+  margin: 40px auto;
+}
+
+#history-timeline h2 {
+  margin-bottom: 0;
+  padding-bottom: 4px;
+  font-size: 1.4em;
+}
+
+#history-timeline p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/*Museums*/
+.maincontent p {
+  margin-top: 5px;
+}
+
+/*Parks*/
+.park-types {
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(0, 51, 102);
+}
+
+.maincontent ul {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .maincontent h1, h2, h3, p, table, .main-article-home p, section, 
+  #development-table, #history-timeline {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .maincontent h1, h2, h3, p, table, .main-article-home p, section, 
+  #development-table, #history-timeline {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .divider {
+    width: calc(100% - 40px);
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .divider {
+    width: calc(100% - 20px);
+    margin: 20px auto;
+  }
+}
