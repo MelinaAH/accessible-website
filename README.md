@@ -1,4 +1,4 @@
-Web accessibility
+Web Accessibility
 
 As part of the Web Accessibility 1 course at Tampere University, the assignment 
 was to “Create an accessible website (five documents in HTML format) that 
