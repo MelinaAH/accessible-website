@@ -2,7 +2,7 @@ Web Accessibility
 
 As part of the Web Accessibility 1 course at Tampere University, the assignment 
 was to “Create an accessible website (five documents in HTML format) that 
-includes titles, paragraphs, images, links (e.g., navigation between documents). 
+includes titles, paragraphs, images, and links (e.g., navigation between documents). 
 The content and topic can be anything.” My prior knowledge of accessibility was 
 primarily theoretical, and I had little experience in creating accessible 
 websites. Through this project, I have learned a great deal, enhancing my 
@@ -11,11 +11,12 @@ make websites more accessible and user-friendly for those using screen readers
 and keyboards for navigation.
 
 Explanation of Choices
+
 In designing the website, I focused on ensuring accessibility for users who rely 
 on screen readers and keyboard navigation. I believe the site is accessible to 
 these users, as I have implemented landmarks, semantic elements, and other best 
-practices mentioned in WCAG 2.1. However, I recognize that there are other users 
-with different needs, such as those who use voice recognition software, 
+practices mentioned in WCAG 2.1. However, I recognize that other users have 
+different needs, such as those who use voice recognition software, 
 eye-tracking technology, or switch devices to interact with their computers or 
 mobile devices. These aspects were not explicitly addressed in my project. 
 Nevertheless, I’m confident that the accessibility improvements made for screen 
@@ -24,6 +25,7 @@ technologies. Ensuring a solid foundation of accessibility can often enhance
 usability across various devices and methods of interaction.
 
 Accessibility Features
+
 Language Attribute: All the documents include a lang attribute, which specifies 
 the language of the document. This is crucial for screen readers to pronounce 
 the text correctly.
@@ -50,7 +52,7 @@ accessibility.
 Landmarks and Semantic Elements: Landmarks and semantic elements are used to 
 enhance the user experience for those who use screen readers. They make the 
 document’s structure logical, understandable, and easier to navigate. Semantic 
-elements, such as <article>, <nav>, and <footer>, provide meaningful context to 
+elements, such as article, nav, and footer, provide meaningful context to 
 the content, unlike generic <div> tags, which don’t convey any specific meaning. 
 Unlike semantic elements, <div> tags lack built-in accessibility features, 
 making it harder for assistive technologies to interpret the content.
