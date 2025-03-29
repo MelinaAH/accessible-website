@@ -30,7 +30,7 @@ I have implemented media queries to ensure that the website adapts seamlessly to
 Headings are used correctly to create a logical document structure, making it easier for screen reader users to navigate and understand the relationship between different sections.
 
 **Landmarks and Semantic Elements:**
-Landmarks and semantic elements are used to enhance the user experience for those who use screen readers. They make the document’s structure logical, understandable, and easier to navigate. Semantic elements, such as <article>, <nav>, and <footer>, provide meaningful context to the content, unlike generic <div> tags, which don’t convey any specific meaning. Unlike semantic elements, <div> tags lack built-in accessibility features, making it harder for assistive technologies to interpret the content.
+Landmarks and semantic elements are used to enhance the user experience for those who use screen readers. They make the document’s structure logical, understandable, and easier to navigate. Semantic elements, such as "<article>", <nav>, and <footer>, provide meaningful context to the content, unlike generic <div> tags, which don’t convey any specific meaning. Unlike semantic elements, <div> tags lack built-in accessibility features, making it harder for assistive technologies to interpret the content.
 
 **Colour Contrast:**
 The colour contrast is at least 4.5:1, which is the required ratio for accessibility. Sufficient colour contrast makes the content accessible for people with low vision and other vision impairments.
