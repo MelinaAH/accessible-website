@@ -1,13 +1,17 @@
 # Web Accessibility Project
 
 ## Project Description
-**What was done:** As part of the Web Accessibility course at Tampere University, the assignment was to create an accessible website (five documents in HTML format) that includes titles, paragraphs, images, and links (e.g., navigation between documents). The content and topic could be anything.
+**What was done:** 
+As part of the Web Accessibility course at Tampere University, the assignment was to create an accessible website (five documents in HTML format) that includes titles, paragraphs, images, and links (e.g., navigation between documents). The content and topic could be anything.
 
-**Why:** The purpose of the project was to enhance my understanding of accessibility and learn practical ways to make websites more user-friendly, particularly for those using screen readers and keyboard navigation.
+**Why:** 
+The purpose of the project was to enhance my understanding of accessibility and learn practical ways to make websites more user-friendly, particularly for those using screen readers and keyboard navigation.
 
-**How:** I used WCAG 2.1 guidelines and best practices, such as landmarks and semantic elements, to ensure the website's accessibility.
+**How:** 
+I used WCAG 2.1 guidelines and best practices, such as landmarks and semantic elements, to ensure the website's accessibility.
 
-**My Role:** I completed the project independently, handling all design and implementation stages.
+**My Role:** 
+I completed the project independently, handling all design and implementation stages.
 
 ## Explanation of Choices
 In designing the website, I focused on ensuring accessibility for users who rely on screen readers and keyboard navigation. I implemented landmarks, semantic elements, and other best practices mentioned in WCAG 2.1. Although I did not address all possible accessibility needs, such as voice recognition software and eye-tracking technology, I believe the improvements made for screen reader and keyboard users will also benefit those using other assistive technologies.
